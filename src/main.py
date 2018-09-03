@@ -8,7 +8,7 @@ def GenerateDataSetWithGAN():
 def TrainCNN():
     pass
 
-def TrainDSE():
+def TrainDEM():
     pass
 
 def ParseArgs():
@@ -37,6 +37,6 @@ if __name__ == '__main__':
 
     model = TrainCNN()
 
-    DSE = TrainDSE()
+    DEM = TrainDEM()
 
     DSE.predict()
